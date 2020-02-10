@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    align-items: center;
+}
+.pads {
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+}
+.pads > div {
+
+    height: 100px;
+    width: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.pads > div:hover {
+    cursor: pointer;
+}
+.pad1 {
+    background-color: lightcoral;
+}
+.pad2 {
+    background-color: lightgreen;
+}
+.pad3 {
+    background-color: lightsalmon;
+}
+.pad4 {
+    background-color: lightseagreen;
+}
+.pad5 {
+    background-color: yellowgreen;
+}
+.pad-text {
+    color: white;
+    font-size: 20px;
+    user-select: none;
+}
